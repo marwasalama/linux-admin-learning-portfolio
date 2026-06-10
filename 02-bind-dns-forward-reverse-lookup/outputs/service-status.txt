@@ -1,0 +1,20 @@
+● named.service - Berkeley Internet Name Domain (DNS)
+     Loaded: loaded (/usr/lib/systemd/system/named.service; enabled; preset: disabled)
+     Active: active (running) since Wed 2026-06-10 02:58:17 EEST; 12min ago
+   Main PID: 4487 (named)
+      Tasks: 10 (limit: 22756)
+     Memory: 26.8M (peak: 28.3M)
+        CPU: 358ms
+     CGroup: /system.slice/named.service
+             └─4487 /usr/sbin/named -u named -c /etc/named.conf
+
+Jun 10 02:58:17 masterdns.lab.local named[4487]: network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+Jun 10 02:58:17 masterdns.lab.local named[4487]: network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+Jun 10 02:58:17 masterdns.lab.local named[4487]: network unreachable resolving './NS/IN': 2001:500:2f::f#53
+Jun 10 02:58:17 masterdns.lab.local named[4487]: network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+Jun 10 02:58:17 masterdns.lab.local named[4487]: running
+Jun 10 02:58:17 masterdns.lab.local systemd[1]: Started Berkeley Internet Name Domain (DNS).
+Jun 10 02:58:17 masterdns.lab.local named[4487]: network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+Jun 10 02:58:17 masterdns.lab.local named[4487]: managed-keys-zone: Initializing automatic trust anchor management for zone '.'; DNSKEY ID 20326 is now trusted, waiving the normal 30-day waiting period.
+Jun 10 02:58:17 masterdns.lab.local named[4487]: managed-keys-zone: Initializing automatic trust anchor management for zone '.'; DNSKEY ID 38696 is now trusted, waiving the normal 30-day waiting period.
+Jun 10 02:58:17 masterdns.lab.local named[4487]: resolver priming query complete

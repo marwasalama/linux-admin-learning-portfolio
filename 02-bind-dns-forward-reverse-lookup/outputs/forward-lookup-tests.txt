@@ -1,0 +1,48 @@
+
+; <<>> DiG 9.16.23-RH <<>> @192.168.209.135 masterdns.lab.local
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; WARNING: .local is reserved for Multicast DNS
+;; You are currently testing what happens when an mDNS query is leaked to DNS
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37633
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: fb05c73fd5cec36d010000006a28abde9073da2985207138 (good)
+;; QUESTION SECTION:
+;masterdns.lab.local.		IN	A
+
+;; ANSWER SECTION:
+masterdns.lab.local.	86400	IN	A	192.168.209.135
+
+;; Query time: 1 msec
+;; SERVER: 192.168.209.135#53(192.168.209.135)
+;; WHEN: Wed Jun 10 03:12:14 EEST 2026
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.16.23-RH <<>> @192.168.209.135 clienta.lab.local
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; WARNING: .local is reserved for Multicast DNS
+;; You are currently testing what happens when an mDNS query is leaked to DNS
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22085
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 933cfdf16a171a2f010000006a28abdea1ca676de91f91ce (good)
+;; QUESTION SECTION:
+;clienta.lab.local.		IN	A
+
+;; ANSWER SECTION:
+clienta.lab.local.	86400	IN	A	192.168.209.136
+
+;; Query time: 1 msec
+;; SERVER: 192.168.209.135#53(192.168.209.135)
+;; WHEN: Wed Jun 10 03:12:14 EEST 2026
+;; MSG SIZE  rcvd: 90
+

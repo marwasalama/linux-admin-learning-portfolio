@@ -1,0 +1,4 @@
+zone lab.local/IN: loaded serial 2026061001
+OK
+zone 209.168.192.in-addr.arpa/IN: loaded serial 2026061001
+OK

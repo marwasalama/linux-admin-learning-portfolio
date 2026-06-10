@@ -1,0 +1,44 @@
+
+; <<>> DiG 9.16.23-RH <<>> @192.168.209.135 -x 192.168.209.135
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18656
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: f871813404f79e1d010000006a28ac1a90cd48e7c3ce8465 (good)
+;; QUESTION SECTION:
+;135.209.168.192.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+135.209.168.192.in-addr.arpa. 86400 IN	PTR	masterdns.lab.local.
+
+;; Query time: 2 msec
+;; SERVER: 192.168.209.135#53(192.168.209.135)
+;; WHEN: Wed Jun 10 03:13:14 EEST 2026
+;; MSG SIZE  rcvd: 118
+
+
+; <<>> DiG 9.16.23-RH <<>> @192.168.209.135 -x 192.168.209.137
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46637
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: e1ab486e434d0a08010000006a28ac1a86ce941fdb407a7b (good)
+;; QUESTION SECTION:
+;137.209.168.192.in-addr.arpa.	IN	PTR
+
+;; ANSWER SECTION:
+137.209.168.192.in-addr.arpa. 86400 IN	PTR	clientb.lab.local.
+
+;; Query time: 2 msec
+;; SERVER: 192.168.209.135#53(192.168.209.135)
+;; WHEN: Wed Jun 10 03:13:14 EEST 2026
+;; MSG SIZE  rcvd: 116
+
