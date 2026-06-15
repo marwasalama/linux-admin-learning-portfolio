@@ -1,0 +1,40 @@
+
+Nagios Core 4.5.13
+Copyright (c) 2009-present Nagios Core Development Team and Community Contributors
+Copyright (c) 1999-2009 Ethan Galstad
+Last Modified: 2026-05-28
+License: GPL
+
+Website: https://www.nagios.org
+Reading configuration data...
+   Read main config file okay...
+WARNING: The normal_check_interval attribute is deprecated and will be removed in future versions. Please use check_interval instead.
+WARNING: The retry_check_interval attribute is deprecated and will be removed in future versions. Please use retry_interval instead.
+   Read object config files okay...
+
+Running pre-flight check on configuration data...
+
+Checking objects...
+	Checked 9 services.
+	Checked 2 hosts.
+	Checked 1 host groups.
+	Checked 0 service groups.
+	Checked 1 contacts.
+	Checked 1 contact groups.
+	Checked 24 commands.
+	Checked 5 time periods.
+	Checked 0 host escalations.
+	Checked 0 service escalations.
+Checking for circular paths...
+	Checked 2 hosts
+	Checked 0 service dependencies
+	Checked 0 host dependencies
+	Checked 5 timeperiods
+Checking global event handlers...
+Checking obsessive compulsive processor commands...
+Checking misc settings...
+
+Total Warnings: 0
+Total Errors:   0
+
+Things look okay - No serious problems were detected during the pre-flight check

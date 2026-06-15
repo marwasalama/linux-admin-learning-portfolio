@@ -2,7 +2,7 @@
 
 This repository contains my hands-on Linux administration labs and practice projects while learning Linux system administration.
 
-The goal of this portfolio is to document practical skills related to Linux, system administration, infrastructure, troubleshooting, shell scripting, networking, DNS, web servers, and server management.
+The goal of this portfolio is to document practical skills related to Linux, system administration, infrastructure, troubleshooting, shell scripting, networking, DNS, web servers, monitoring, and server management.
 
 ## Labs
 
@@ -12,6 +12,7 @@ The goal of this portfolio is to document practical skills related to Linux, sys
 | 02 | [BIND DNS Forward and Reverse Lookup Lab](02-bind-dns-forward-reverse-lookup/) | Configured a BIND DNS server on CentOS Stream 9 with forward and reverse lookup zones, zone validation, service management, and DNS testing using dig |
 | 03 | [Nginx Static Web Server](03-nginx-static-web-server/) | Configured Nginx as a static web server on CentOS to serve a custom HTML page through HTTP |
 | 04 | [Nginx Reverse Proxy Single VM Lab](04-nginx-reverse-proxy-single-vm/) | Configured Nginx as a reverse proxy to forward client requests from port 80 to a backend website running on port 8080 on the same CentOS VM |
+| 05 | [Nagios Core Monitoring Server](05-nagios-core-monitoring-server/) | Installed and configured Nagios Core 4.5.13 with Apache, Nagios Plugins, firewall configuration, and host/service monitoring |
 
 ## Skills Covered
 

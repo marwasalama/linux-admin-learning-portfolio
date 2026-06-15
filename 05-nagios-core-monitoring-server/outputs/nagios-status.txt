@@ -1,0 +1,28 @@
+● nagios.service - Nagios Core 4.5.13
+     Loaded: loaded (/usr/lib/systemd/system/nagios.service; enabled; preset: disabled)
+     Active: active (running) since Mon 2026-06-15 07:11:05 EEST; 1min 22s ago
+       Docs: https://www.nagios.org/documentation
+    Process: 48818 ExecStartPre=/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg (code=exited, status=0/SUCCESS)
+    Process: 48819 ExecStart=/usr/local/nagios/bin/nagios -d /usr/local/nagios/etc/nagios.cfg (code=exited, status=0/SUCCESS)
+   Main PID: 48820 (nagios)
+      Tasks: 6 (limit: 22756)
+     Memory: 13.4M (peak: 17.0M)
+        CPU: 341ms
+     CGroup: /system.slice/nagios.service
+             ├─48820 /usr/local/nagios/bin/nagios -d /usr/local/nagios/etc/nagios.cfg
+             ├─48822 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+             ├─48823 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+             ├─48824 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+             ├─48825 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+             └─48827 /usr/local/nagios/bin/nagios -d /usr/local/nagios/etc/nagios.cfg
+
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: qh: help for the query handler registered
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: wproc: Successfully registered manager as @wproc with query handler
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: wproc: Registry request: name=Core Worker 48825;pid=48825
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: wproc: Registry request: name=Core Worker 48824;pid=48824
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: wproc: Registry request: name=Core Worker 48823;pid=48823
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: wproc: Registry request: name=Core Worker 48822;pid=48822
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: WARNING: The normal_check_interval attribute is deprecated and will be removed in future versions. Please use check_interval instead.
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: WARNING: The retry_check_interval attribute is deprecated and will be removed in future versions. Please use retry_interval instead.
+Jun 15 07:11:05 masterdns.lab.local nagios[48820]: Successfully launched command file worker with pid 48827
+Jun 15 07:11:59 masterdns.lab.local nagios[48820]: SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 2714165 bytes in 0.029 second response time
