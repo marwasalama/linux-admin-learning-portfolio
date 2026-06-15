@@ -2,7 +2,7 @@
 
 This repository contains my hands-on Linux administration labs and practice projects while learning Linux system administration.
 
-The goal of this portfolio is to document practical skills related to Linux, system administration, infrastructure, troubleshooting, shell scripting, networking, DNS, and server management.
+The goal of this portfolio is to document practical skills related to Linux, system administration, infrastructure, troubleshooting, shell scripting, networking, DNS, web servers, and server management.
 
 ## Labs
 
@@ -10,31 +10,10 @@ The goal of this portfolio is to document practical skills related to Linux, sys
 |---|---|---|
 | 01 | [System Health Monitor](01-system-health-monitor/) | Bash script that generates a Linux system health and monitoring report |
 | 02 | [BIND DNS Forward and Reverse Lookup Lab](02-bind-dns-forward-reverse-lookup/) | Configured a BIND DNS server on CentOS Stream 9 with forward and reverse lookup zones, zone validation, service management, and DNS testing using dig |
+| 03 | [Nginx Static Web Server](03-nginx-static-web-server/) | Configured Nginx as a static web server on CentOS to serve a custom HTML page through HTTP |
+| 04 | [Nginx Reverse Proxy Single VM Lab](04-nginx-reverse-proxy-single-vm/) | Configured Nginx as a reverse proxy to forward client requests from port 80 to a backend website running on port 8080 on the same CentOS VM |
 
----
-
-## Lab 01 - System Health Monitor
-
-This lab includes a Bash script that collects system health information such as:
-
-- System information
-- Kernel version
-- Uptime
-- Logged-in users
-- Memory usage
-- Disk usage
-- Log directory size
-- Top CPU-consuming processes
-- Top memory-consuming processes
-- Network interfaces
-- Listening ports
-- Recent system errors
-
-Folder:
-
-`01-system-health-monitor/`
-
-### Skills Covered
+## Skills Covered
 
 - Linux command line
 - Bash scripting
@@ -42,44 +21,16 @@ Folder:
 - Process monitoring
 - Disk and memory checking
 - Network checking
-- Log review using journalctl
-- Basic troubleshooting
+- DNS server configuration
+- BIND forward and reverse lookup zones
+- Nginx web server configuration
+- Nginx reverse proxy configuration
+- HTTP traffic handling
+- Firewall management
+- SELinux troubleshooting
+- Service management using systemctl
+- Configuration validation and troubleshooting
 - Technical documentation
-
----
-
-## Lab 02 - BIND DNS Forward and Reverse Lookup Lab
-
-This lab covers the configuration of a DNS server using BIND on CentOS Stream 9.
-
-The lab includes:
-
-- Installing BIND and DNS utilities
-- Configuring the main BIND configuration file
-- Creating a forward lookup zone
-- Creating a reverse lookup zone
-- Validating DNS configuration and zone files
-- Managing the named service with systemctl
-- Testing DNS resolution using dig
-- Documenting configuration files and command outputs
-
-Folder:
-
-`02-bind-dns-forward-reverse-lookup/`
-
-### Skills Covered
-
-- Linux DNS administration
-- BIND configuration
-- Forward DNS lookup
-- Reverse DNS lookup
-- DNS zone file creation
-- DNS service management
-- DNS troubleshooting using dig
-- Configuration validation using named-checkconf and named-checkzone
-- Linux file ownership and permissions
-
----
 
 ## Career Focus
 
@@ -90,5 +41,4 @@ This portfolio supports my learning path toward roles such as:
 - Infrastructure Engineer
 - IT Operations Engineer
 - Technical Support Engineer
-- Network/System Administrator
-
+- Junior DevOps Engineer
