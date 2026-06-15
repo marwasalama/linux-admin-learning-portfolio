@@ -1,0 +1,22 @@
+● nginx.service - The nginx HTTP and reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: disabled)
+     Active: active (running) since Mon 2026-06-15 04:28:41 EEST; 21min ago
+    Process: 4785 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)
+    Process: 4786 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)
+    Process: 4787 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)
+    Process: 4977 ExecReload=/usr/sbin/nginx -s reload (code=exited, status=0/SUCCESS)
+   Main PID: 4788 (nginx)
+      Tasks: 3 (limit: 22756)
+     Memory: 5.8M (peak: 8.5M)
+        CPU: 170ms
+     CGroup: /system.slice/nginx.service
+             ├─4788 "nginx: master process /usr/sbin/nginx"
+             ├─4981 "nginx: worker process"
+             └─4982 "nginx: worker process"
+
+Jun 15 04:28:41 masterdns.lab.local systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Jun 15 04:28:41 masterdns.lab.local nginx[4786]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 15 04:28:41 masterdns.lab.local nginx[4786]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 15 04:28:41 masterdns.lab.local systemd[1]: Started The nginx HTTP and reverse proxy server.
+Jun 15 04:43:51 masterdns.lab.local systemd[1]: Reloading The nginx HTTP and reverse proxy server...
+Jun 15 04:43:52 masterdns.lab.local systemd[1]: Reloaded The nginx HTTP and reverse proxy server.

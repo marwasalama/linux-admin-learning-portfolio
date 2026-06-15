@@ -1,0 +1,1 @@
+cockpit dhcpv6-client http ssh
