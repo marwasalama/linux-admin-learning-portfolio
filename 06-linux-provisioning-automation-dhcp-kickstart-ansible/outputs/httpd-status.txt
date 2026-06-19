@@ -1,0 +1,21 @@
+● httpd.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; preset: disabled)
+    Drop-In: /usr/lib/systemd/system/httpd.service.d
+             └─php-fpm.conf
+     Active: active (running) since Fri 2026-06-19 10:57:18 EEST; 1min 6s ago
+       Docs: man:httpd.service(8)
+   Main PID: 4954 (httpd)
+     Status: "Total requests: 0; Idle/Busy workers 100/0;Requests/sec: 0; Bytes served/sec:   0 B/sec"
+      Tasks: 177 (limit: 22756)
+     Memory: 13.6M (peak: 13.9M)
+        CPU: 329ms
+     CGroup: /system.slice/httpd.service
+             ├─4954 /usr/sbin/httpd -DFOREGROUND
+             ├─4955 /usr/sbin/httpd -DFOREGROUND
+             ├─4956 /usr/sbin/httpd -DFOREGROUND
+             ├─4957 /usr/sbin/httpd -DFOREGROUND
+             └─4958 /usr/sbin/httpd -DFOREGROUND
+
+Jun 19 10:57:18 masterdns.lab.local systemd[1]: Starting The Apache HTTP Server...
+Jun 19 10:57:18 masterdns.lab.local httpd[4954]: Server configured, listening on: port 80
+Jun 19 10:57:18 masterdns.lab.local systemd[1]: Started The Apache HTTP Server.

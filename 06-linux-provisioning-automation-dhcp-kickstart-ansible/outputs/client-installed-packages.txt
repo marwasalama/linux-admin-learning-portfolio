@@ -1,0 +1,6 @@
+wget-1.21.1-8.el9.x86_64
+curl-7.76.1-43.el9.x86_64
+net-tools-2.0-0.64.20160912git.el9.x86_64
+bash-completion-2.11-5.el9.noarch
+vim-enhanced-8.2.2637-28.el9.x86_64
+package vim is not installed

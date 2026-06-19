@@ -1,0 +1,13 @@
+ Static hostname: kickstart-client.lab.local
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 4c8902f1897a4d6d935b6e0fb331063a
+         Boot ID: 2b70b935c00046c19d11b8351cb7879d
+  Virtualization: vmware
+Operating System: CentOS Stream 9
+     CPE OS Name: cpe:/o:centos:centos:9
+          Kernel: Linux 5.14.0-704.el9.x86_64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware20,1
+Firmware Version: VMW201.00V.21805430.B64.2305221830

@@ -1,0 +1,22 @@
+● sshd.service - OpenSSH server daemon
+     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2026-06-19 21:55:15 EEST; 37min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 1001 (sshd)
+      Tasks: 1 (limit: 10416)
+     Memory: 5.0M (peak: 6.3M)
+        CPU: 1.370s
+     CGroup: /system.slice/sshd.service
+             └─1001 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+Jun 19 22:32:08 kickstart-client.lab.local sshd-session[5868]: pam_unix(sshd:session): session opened for user marwa(uid=1000) by marwa(uid=0)
+Jun 19 22:32:08 kickstart-client.lab.local sshd-session[5868]: pam_unix(sshd:session): session closed for user marwa
+Jun 19 22:32:21 kickstart-client.lab.local sshd-session[5896]: Accepted password for marwa from 192.168.56.10 port 46474 ssh2
+Jun 19 22:32:21 kickstart-client.lab.local sshd-session[5896]: pam_unix(sshd:session): session opened for user marwa(uid=1000) by marwa(uid=0)
+Jun 19 22:32:21 kickstart-client.lab.local sshd-session[5896]: pam_unix(sshd:session): session closed for user marwa
+Jun 19 22:32:38 kickstart-client.lab.local sshd-session[5929]: Accepted password for marwa from 192.168.56.10 port 34990 ssh2
+Jun 19 22:32:38 kickstart-client.lab.local sshd-session[5929]: pam_unix(sshd:session): session opened for user marwa(uid=1000) by marwa(uid=0)
+Jun 19 22:32:38 kickstart-client.lab.local sshd-session[5929]: pam_unix(sshd:session): session closed for user marwa
+Jun 19 22:32:50 kickstart-client.lab.local sshd-session[5957]: Accepted password for marwa from 192.168.56.10 port 40722 ssh2
+Jun 19 22:32:50 kickstart-client.lab.local sshd-session[5957]: pam_unix(sshd:session): session opened for user marwa(uid=1000) by marwa(uid=0)

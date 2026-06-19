@@ -1,0 +1,4 @@
+NAME     UUID                                  TYPE      DEVICE 
+ens160   d1d05b7d-0875-3275-82b1-62e4aff23c11  ethernet  ens160 
+lab-net  ee9873e6-f63f-4a82-b552-471c8b8d51fd  ethernet  ens224 
+lo       fbdd140a-8f4f-4315-8aed-8b193d597111  loopback  lo     

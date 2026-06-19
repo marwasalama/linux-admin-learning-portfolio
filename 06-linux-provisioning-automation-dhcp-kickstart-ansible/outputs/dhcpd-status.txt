@@ -1,0 +1,23 @@
+● dhcpd.service - DHCPv4 Server Daemon
+     Loaded: loaded (/usr/lib/systemd/system/dhcpd.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2026-06-19 10:50:53 EEST; 37s ago
+       Docs: man:dhcpd(8)
+             man:dhcpd.conf(5)
+   Main PID: 4746 (dhcpd)
+     Status: "Dispatching packets..."
+      Tasks: 1 (limit: 22756)
+     Memory: 4.9M (peak: 5.1M)
+        CPU: 58ms
+     CGroup: /system.slice/dhcpd.service
+             └─4746 /usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.conf -user dhcpd -group dhcpd --no-pid ens224
+
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Config file: /etc/dhcp/dhcpd.conf
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Database file: /var/lib/dhcpd/dhcpd.leases
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: PID file: /var/run/dhcpd.pid
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Source compiled to use binary-leases
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Wrote 0 leases to leases file.
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Listening on LPF/ens224/00:0c:29:4d:b7:54/192.168.56.0/24
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Sending on   LPF/ens224/00:0c:29:4d:b7:54/192.168.56.0/24
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Sending on   Socket/fallback/fallback-net
+Jun 19 10:50:53 masterdns.lab.local dhcpd[4746]: Server starting service.
+Jun 19 10:50:53 masterdns.lab.local systemd[1]: Started DHCPv4 Server Daemon.

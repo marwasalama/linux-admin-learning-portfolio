@@ -1,0 +1,27 @@
+---
+- name: Configure Kickstart provisioned client
+  hosts: kickstart_clients
+  become: true
+
+  tasks:
+    - name: Ensure SSH service is enabled and running
+      service:
+        name: sshd
+        state: started
+        enabled: true
+
+    - name: Configure login message
+      copy:
+        src: files/motd
+        dest: /etc/motd
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Create Ansible validation file
+      copy:
+        content: "Post-installation configuration completed by Ansible.\n"
+        dest: /root/ansible-validation.txt
+        owner: root
+        group: root
+        mode: '0644'
