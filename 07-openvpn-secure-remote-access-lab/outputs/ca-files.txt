@@ -1,0 +1,2 @@
+/home/marwa/openvpn-ca/pki/ca.crt
+/home/marwa/openvpn-ca/pki/private/ca.key

@@ -1,0 +1,2 @@
+-rw-r--r--. 1 marwa marwa 5.0K Jun 20 10:16 07-openvpn-secure-remote-access-lab/configs/client1.ovpn
+-rw-r--r--. 1 marwa marwa 5.0K Jun 20 10:16 /home/marwa/client1.ovpn

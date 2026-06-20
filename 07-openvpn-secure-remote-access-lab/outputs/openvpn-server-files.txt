@@ -1,0 +1,6 @@
+total 24
+-rw-------. 1 root root 1200 Jun 20 10:09 ca.crt
+-rw-------. 1 root root  428 Jun 20 10:09 dh.pem
+-rw-------. 1 root root 4505 Jun 20 10:09 server.crt
+-rw-------. 1 root root 1704 Jun 20 10:09 server.key
+-rw-------. 1 root root  636 Jun 20 10:09 ta.key

@@ -1,0 +1,24 @@
+● openvpn-server@server.service - OpenVPN service for server
+     Loaded: loaded (/usr/lib/systemd/system/openvpn-server@.service; enabled; preset: disabled)
+     Active: active (running) since Sat 2026-06-20 10:13:55 EEST; 41s ago
+       Docs: man:openvpn(8)
+             https://community.openvpn.net/openvpn/wiki/Openvpn24ManPage
+             https://community.openvpn.net/openvpn/wiki/HOWTO
+   Main PID: 8763 (openvpn)
+     Status: "Initialization Sequence Completed"
+      Tasks: 1 (limit: 22756)
+     Memory: 1.9M (peak: 2.1M)
+        CPU: 91ms
+     CGroup: /system.slice/system-openvpn\x2dserver.slice/openvpn-server@server.service
+             └─8763 /usr/sbin/openvpn --status /run/openvpn-server/status-server.log --status-version 2 --suppress-timestamps --cipher AES-256-GCM --data-ciphers AES-256-GCM:AES-128-GCM:AES-256-CBC:AES-128-CBC --config server.conf
+
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: net_route_v4_add: 10.8.0.0/24 via 10.8.0.2 dev [NULL] table 0 metric -1
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: Could not determine IPv4/IPv6 protocol. Using AF_INET
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: Socket Buffers: R=[212992->212992] S=[212992->212992]
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: UDPv4 link local (bound): [AF_INET][undef]:1194
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: UDPv4 link remote: [AF_UNSPEC]
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: GID set to nobody
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: UID set to nobody
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: MULTI: multi_init called, r=256 v=256
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: IFCONFIG POOL IPv4: base=10.8.0.4 size=62
+Jun 20 10:13:55 masterdns.lab.local openvpn[8763]: Initialization Sequence Completed

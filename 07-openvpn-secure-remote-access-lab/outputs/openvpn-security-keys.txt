@@ -1,0 +1,2 @@
+/home/marwa/openvpn-ca/pki/dh.pem
+/home/marwa/openvpn-ca/ta.key

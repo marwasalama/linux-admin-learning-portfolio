@@ -1,0 +1,4 @@
+DEVICE  TYPE      STATE                   CONNECTION 
+ens160  ethernet  connected               ens160     
+ens224  ethernet  connected               lab-net    
+lo      loopback  connected (externally)  lo         

@@ -1,0 +1,3 @@
+/home/marwa/openvpn-ca/pki/issued/server.crt
+/home/marwa/openvpn-ca/pki/private/server.key
+/home/marwa/openvpn-ca/pki/reqs/server.req
