@@ -1,0 +1,16 @@
+httpd-tools-2.4.62-14.el9.x86_64
+httpd-filesystem-2.4.62-14.el9.noarch
+httpd-core-2.4.62-14.el9.x86_64
+centos-logos-httpd-90.9-1.el9.noarch
+httpd-2.4.62-14.el9.x86_64
+php-common-8.0.30-6.el9.x86_64
+php-cli-8.0.30-6.el9.x86_64
+php-fpm-8.0.30-6.el9.x86_64
+php-mbstring-8.0.30-6.el9.x86_64
+php-opcache-8.0.30-6.el9.x86_64
+php-pdo-8.0.30-6.el9.x86_64
+php-xml-8.0.30-6.el9.x86_64
+php-8.0.30-6.el9.x86_64
+mariadb-server-utils-10.5.29-4.el9.x86_64
+mariadb-server-10.5.29-4.el9.x86_64
+php-mysqlnd-8.0.30-6.el9.x86_64

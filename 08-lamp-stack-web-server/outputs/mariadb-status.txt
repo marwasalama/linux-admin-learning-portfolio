@@ -1,0 +1,26 @@
+● mariadb.service - MariaDB 10.5 database server
+     Loaded: loaded (/usr/lib/systemd/system/mariadb.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2026-06-26 18:53:07 EEST; 21s ago
+       Docs: man:mariadbd(8)
+             https://mariadb.com/kb/en/library/systemd/
+    Process: 16316 ExecStartPre=/usr/libexec/mariadb-check-socket (code=exited, status=0/SUCCESS)
+    Process: 16340 ExecStartPre=/usr/libexec/mariadb-prepare-db-dir mariadb.service (code=exited, status=0/SUCCESS)
+    Process: 16441 ExecStartPost=/usr/libexec/mariadb-check-upgrade (code=exited, status=0/SUCCESS)
+   Main PID: 16428 (mariadbd)
+     Status: "Taking your SQL requests now..."
+      Tasks: 12 (limit: 22756)
+     Memory: 72.3M (peak: 104.1M)
+        CPU: 7.135s
+     CGroup: /system.slice/mariadb.service
+             └─16428 /usr/libexec/mariadbd --basedir=/usr
+
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: The second is mysql@localhost, it has no password either, but
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: you need to be the system 'mysql' user to connect.
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: After connecting you can set the password, if you would need to be
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: able to connect as any of these users with a password and without sudo
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: See the MariaDB Knowledgebase at https://mariadb.com/kb
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: Please report any problems at https://mariadb.org/jira
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: The latest information about MariaDB is available at https://mariadb.org/.
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: Consider joining MariaDB's strong and vibrant community:
+Jun 26 18:53:03 masterdns.lab.local mariadb-prepare-db-dir[16379]: https://mariadb.org/get-involved/
+Jun 26 18:53:07 masterdns.lab.local systemd[1]: Started MariaDB 10.5 database server.

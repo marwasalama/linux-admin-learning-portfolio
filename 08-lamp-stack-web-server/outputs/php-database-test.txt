@@ -1,0 +1,1 @@
+<h1>LAMP Stack Database Test</h1><p>Database connection successful.</p><table border='1'><tr><th>ID</th><th>Name</th><th>Course</th></tr><tr><td>1</td><td>Hady</td><td>Linux Administration</td></tr><tr><td>2</td><td>Test User</td><td>LAMP Stack</td></tr></table>
